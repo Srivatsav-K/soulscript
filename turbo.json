@@ -1,0 +1,18 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "umd/**", "build/**", ".next"]
+    },
+    "server#dev": { "cache": false },
+    "server#build": { "cache": false },
+    "server#start": { "cache": false },
+    "server#type-check": { "cache": false },
+    "server#lint": { "cache": false },
+    "web#dev": { "cache": false },
+    "web#build": { "cache": false },
+    "web#lint": { "cache": false },
+    "web#preview": { "cache": false }
+  }
+}
