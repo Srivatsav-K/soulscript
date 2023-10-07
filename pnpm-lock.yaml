@@ -57,6 +57,15 @@ importers:
       tsx:
         specifier: ^3.13.0
         version: 3.13.0
+      types:
+        specifier: workspace:^
+        version: link:../types
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  types:
+    devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
