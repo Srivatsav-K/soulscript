@@ -2,7 +2,9 @@
   "name": "soulscript",
   "version": "1.0.0",
   "description": "Simple journal app",
-  "scripts": {},
+  "scripts": {
+    "server-dev": "turbo run server#dev"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
